@@ -1,0 +1,5 @@
+node_modules/
+out/
+# Your own website: keep it out of a public copy of this repository.
+site/*
+!site/README.md

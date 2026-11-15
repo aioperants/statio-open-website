@@ -1,0 +1,14 @@
+{
+  "name": "statio-open-website",
+  "version": "1.0.0",
+  "description": "A simple, fast website for a small business. Import the website you exported from Statio, or write your own site.json.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "import": "node import.mjs",
+    "build": "node build.mjs",
+    "preview": "node preview.mjs",
+    "test": "node --test"
+  }
+}
